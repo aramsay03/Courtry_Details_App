@@ -19,7 +19,7 @@ export default {
     //   console.log();
     //   eventBus.$emit('country-changed', this.countries)
     handleChange(event){
-      console.log(event.target.value);
+      // console.log(event.target.value);
       eventBus.$emit('country-changed', this.countries[event.target.value])
 
     }

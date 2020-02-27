@@ -5,7 +5,7 @@
     <p>Population: {{country.population}}</p>
     <p>Languages spoken:</p>
     <ul>
-      <li v-for="language in country.languages">{{language.nativeName}}</li>
+      <li v-for="language in country.languages">{{language.name}}</li>
     </ul>
     <img :src="country.flag" alt="">
   </div>
@@ -19,4 +19,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+img {
+  max-width: 50%;
+}
 </style>
