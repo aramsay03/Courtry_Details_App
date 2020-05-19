@@ -22,4 +22,8 @@ export default {
 img {
   max-width: 50%;
 }
+
+ul {
+  list-style-type: none;
+}
 </style>

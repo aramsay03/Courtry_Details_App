@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <h1>Countries:</h1>
+    <h4>Select country form list below to see country details.</h4>
     <country-select :countries='countries'></country-select>
     <country-details :country='selectedCountry'></country-details>
   </div>
